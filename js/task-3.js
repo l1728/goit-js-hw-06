@@ -1,6 +1,6 @@
 class StringBuilder {
     #value;
-    constructor(initialValue = " ") {
+    constructor(initialValue = "") {
         this.#value = initialValue.toString();
     }
     getValue() {
